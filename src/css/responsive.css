@@ -1,0 +1,82 @@
+
+@media (max-width: 1300px) {}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    .navbar .container-fluid{
+        gap: 10px;
+    }
+    .navbar .navbar-nav{
+        gap: 15px;
+    }
+    .navbar .nav-item a{
+        padding-left: 5px;
+    }
+    .navbar .search-bar{
+        margin-left: 30px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    .home-page .text-container .pencil-go{
+        font-size: 6rem;
+    }
+    .home-page .text-container p{
+        font-size: 1.8rem;
+    }
+    .all-products-in-my-cart-container{
+        align-items: center;
+    }
+    .mycart-page .container{
+        justify-content: center;
+        gap: 20px;
+    }
+    .mycart-page .all-products-in-my-cart-container .product-in-my-cart-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mycart-page .all-products-in-my-cart-container .product-in-my-cart-container .description-container {
+        gap: 10px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    .home-page .text-container .pencil-go{
+        font-size: 8rem;
+    }
+    .home-page .text-container p{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    .home-page .text-container .pencil-go{
+        font-size: 9rem;
+    }
+    .home-page .text-container p{
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1300px) {
+    .navbar .search-bar{
+        margin-left: 0;
+        margin-right: 0px;
+        margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {
+    .all-products-in-my-cart-container{
+        align-items: center;
+    }
+    .mycart-page .container{
+        justify-content: center;
+        gap: 20px;
+    }
+    .mycart-page .all-products-in-my-cart-container .product-in-my-cart-container{
+        flex-direction: row;
+        align-items: initial;
+    }
+    .mycart-page .all-products-in-my-cart-container .product-in-my-cart-container .description-container {
+        gap: 10px;
+    }
+}

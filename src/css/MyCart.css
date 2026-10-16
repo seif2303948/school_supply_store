@@ -1,0 +1,67 @@
+.mycart-page{
+    min-height: 100vh;
+}
+.mycart-page > *{
+    overflow-y: hidden;
+}
+.mycart-page .container{
+    margin: auto;
+    justify-content: space-between;
+    width: 90%;
+    max-width: none;
+    
+}
+.mycart-page .all-products-in-my-cart-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.mycart-page .all-products-in-my-cart-container .product-in-my-cart-container{
+    width: 600px;
+    max-width: 600px;
+    display: flex;
+    background-color: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.mycart-page .all-products-in-my-cart-container .product-in-my-cart-container .product-img-container{
+    width: 200px;
+}
+.mycart-page .all-products-in-my-cart-container .product-in-my-cart-container .description-container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.mycart-page .payment-summary{
+    width: 350px;
+    max-width: 350px;
+    background-color: #fff;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: hidden;
+    align-self: flex-start;
+}
+.mycart-page .payment-summary .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+.mycart-page .payment-summary .text-container > *{
+   overflow-y: hidden;
+}
+
+.mycart-page .payment-summary  button{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 0px;
+    transition-duration: 0.2s;
+}

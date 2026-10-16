@@ -1,0 +1,63 @@
+.navbar{
+    background-image: linear-gradient(rgba(113, 44, 249, 1), rgba(113, 44, 249, .95));
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 4;
+    width: 100%;
+}
+.navbar .navbar-brand{
+    margin: 0;
+    font-family: "Caveat Brush", cursive;
+    font-size: 3rem;
+}
+.navbar .navbar-brand:focus,
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:active{
+    color: #fff;
+}
+
+.navbar .navbar-nav{
+    margin-left: 50px;
+    gap: 50px;
+    font-size: 1.5rem;
+}
+.navbar a{
+    color: #fff;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+.navbar .dropdown-menu a{
+    color: #000;
+    transition-duration: 0.2s;
+}
+.navbar .nav-item{
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+.navbar .nav-item:hover{
+    color: #000 !important; 
+    background-color: #fff;
+    
+}
+.navbar .nav-item a.active{
+    color: #000 !important; 
+    background-color: #fff;
+}
+.navbar .nav-item a:hover{
+    color: #000 !important;
+    
+}
+.navbar .img-container{
+    width: 50px;
+}
+.navbar .search-bar{
+    margin-right: 40px;
+    
+}
+.navbar .search-bar input{
+    padding: 10px 8px;
+    padding-left: 8px;
+    width: 300px;
+    max-width: 300px;
+}
