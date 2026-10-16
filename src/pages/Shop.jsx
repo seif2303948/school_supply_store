@@ -46,7 +46,7 @@ export function Shop({filteredProducts}){
                                 <div className="col" key={product.id}>
                                     <div className="product-container">
                                         <div className="product-img">
-                                            <img src={product.image} alt="" />
+                                            <img src={import.meta.env.BASE_URL + product.image} alt="" />
                                         </div>
                                         <div className="product-name">{product.name}</div>
                                         <div className="product-price">

@@ -36,7 +36,7 @@ export function YourOrder(){
                                             return(
                                                 <div className="product-in-my-cart-container row row-cols-sm-2 row-cols-1 row-gap-3 justify-content-center" key={product.id}>
                                                     <div className="product-img-container col">
-                                                        <img src={product.image} alt="" />
+                                                        <img src= {import.meta.env.BASE_URL + product.image} alt="" />
                                                     </div>
                                                     <div className="description-container col">
                                                         <div className="product-name">{product.name}</div>

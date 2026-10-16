@@ -56,7 +56,7 @@ export function MyCart(){
                                     return(
                                         <div className="product-in-my-cart-container" key={product.id}>
                                             <div className="product-img-container">
-                                                <img src={product.image} alt="" />
+                                                <img src={import.meta.env.BASE_URL + product.image} alt="" />
                                             </div>
                                             <div className="description-container">
                                                 <div className="product-name">{product.name}</div>
