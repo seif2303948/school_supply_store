@@ -1,6 +1,6 @@
 .home-page{
     height: 100vh;
-    background: url("background-img.avif");
+    background: url("/background-img.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
